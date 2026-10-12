@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h2>MY Portfolio.</h2>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <h1>Hiii, I'm Atul Kumar</h1>
+                <h2>Front-End Developer</h2>
+                <p>I Bulid Beautiful and responsive websites.</p>
+                <button onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View My Work</button>
+            </section>
+            <section class="about" id="about">
+                <h2>About me</h2>
+                <p>
+                    I am learing Fornt-end Development.
+                    I enjoy bulid websites using HTML and CSS.
+                    My goal is to become a professional Developer.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>My Skills</h2>
+                <div class="skills-list">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JAVA SCRIPT</div>
+                    <div class="skill">RESPONSIVE DESIGN</div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <h2>My projects</h2>
+                <div  class="projects-list">
+                    <div class="projects-card">
+                        <h3>Portfolio websites</h3>
+                        <p>My personal Portfolio bulit with HTML and CSS.</p>
+                    </div>
+                    <div class="projects-card">
+                        <h3>Landing Page</h3>
+                        <p>A clean and responsive landing page.</p>
+                    </div>
+                    <div class="projects-card">
+                        <h3>Calculator</h3>
+                        <p>A simple Calculator projects</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h2>Contact</h2>
+                <p>Have a project in mind? let's talk!</p>
+
+                <a href="mailto:atulkumar8565011@gmail.com" class="contact-btn">email me</a>
+            </section>
+        </main>
+        <footer>
+            <p>@ 2026 Atul. All Rights Reserved</p>
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel=" noopener noreferrer">github</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel=" noopener noreferrer">linkedin</a>
+            </div>
+        </footer>
+    </body>
+</html>
